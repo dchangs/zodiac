@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Zodiac Website</title>
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Tillana:700" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<!-- main css -->
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+	<h1 id="zodiac">What is your Horoscope?</h1>
+	<form>
+		<input type="text" id="name" placeholder="Name">
+		<input type="text" id="sign" placeholder="Zodiac sign">
+		<button type="button" onclick="getInfo()">Tell me my Horoscope!</button>
+	</form>
+
+	<div id="result">
+		<h2 id="element" ></h2>
+		<h2 id="image"><img src="img/zodiacall.png" alt="What's your sign?"></h2>
+		<p id="forcast"></p>
+	</div>
+
+
+
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

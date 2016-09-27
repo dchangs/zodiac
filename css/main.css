@@ -1,0 +1,83 @@
+body {
+	background-color: #2E2256;
+	color: #eee;
+	font-family: 'Tillana', cursive;
+	text-align: center;
+}
+
+form {
+	text-align: center;
+	padding: 30px;
+}
+
+input {
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid #444;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #fff;
+	background-color: transparent;
+}
+
+button {
+	padding: 10px;
+	margin: 10px;
+	border: 2px solid #444;
+	border-radius: 5px;
+	font-size: 16px;
+	background-color: transparent;
+	color: #bbb;
+	cursor: pointer;
+}
+
+button:hover {
+	color: #fff;
+	border: 3px solid #fff;
+}
+
+div.dropdown.open {
+	text-align: center;
+}
+
+.dropdown-menu {
+	background-color: transparent;
+	color: #eee;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+#element {
+	text-align: center;
+	text-transform: capitalize;
+}
+
+#zodiac {
+	font-size: 50px;
+}
+
+#result {
+	text-align: center;
+	padding: 30px;
+	margin: 0 auto;
+}
+
+#image {
+	margin: 20px 0;
+}
+
+#image img {
+	width: 30%;
+}
+
+#forcast {
+	width: 80%;
+	margin: 0 auto;
+	font-family: 'Amatic SC', cursive;
+	font-size: 28px;
+	line-height: 32px;
+	letter-spacing: 2px;
+}
+
+
+
