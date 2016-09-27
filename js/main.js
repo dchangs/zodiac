@@ -73,6 +73,41 @@ var zodiac = [
 	}
 ]
 
+function findSign() {
+	console.log('findsignfunction')
+	var bday = document.getElementById("bday").value
+	var bday = '1' + bday
+
+	if (bday >= 10120 && bday <= 10218) {
+		document.getElementById("sign").value = 'aquarius'
+	} else if (bday >= 10219 && bday <= 10320) {
+		document.getElementById("sign").value = 'pisces'
+	} else if (bday >= 10321 && bday <= 10419) {
+		document.getElementById("sign").value = 'aries'
+	} else if (bday >= 10420 && bday <= 10520) {
+		document.getElementById("sign").value = 'taurus'
+	} else if (bday >= 10521 && bday <= 10620) {
+		document.getElementById("sign").value = 'gemini'
+	} else if (bday >= 10621 && bday <= 10722) {
+		document.getElementById("sign").value = 'cancer'
+	} else if (bday >= 10723 && bday <= 10822) {
+		document.getElementById("sign").value = 'leo'
+	} else if (bday >= 10823 && bday <= 10922) {
+		document.getElementById("sign").value = 'virgo'
+	} else if (bday >= 10923 && bday <= 11022) {
+		document.getElementById("sign").value = 'libra'
+	} else if (bday >= 11023 && bday <= 11121) {
+		document.getElementById("sign").value = 'scorpio'
+	} else if (bday >= 11122 && bday <= 11221) {
+		document.getElementById("sign").value = 'sagittarius'
+	} else if ((bday >= 11221 && bday <= 11231) || (bday >= 10101 && bday <= 10119)) {
+		document.getElementById("sign").value = 'capricorn'
+	} else {
+		alert('Please enter your month and date of birth in the correct format (mmdd)')
+	}
+	getInfo()
+}
+
 
 function getInfo() {
 	var name = document.getElementById("name").value

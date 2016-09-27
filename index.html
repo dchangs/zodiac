@@ -6,7 +6,6 @@
 	<title>Zodiac Website</title>
 	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Tillana:700" rel="stylesheet">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<!-- main css -->
 	<link rel="stylesheet" href="css/main.css">
@@ -18,6 +17,11 @@
 		<input type="text" id="name" placeholder="Name">
 		<input type="text" id="sign" placeholder="Zodiac sign">
 		<button type="button" onclick="getInfo()">Tell me my Horoscope!</button>
+		<br>
+		<p>Don't know your sign? When is your birthday? (month and date)</p>
+		<br>
+		<input type="number" id="bday" placeholder="mmdd">
+		<button type="button" onclick="findSign()">Find my Sign!</button>
 	</form>
 
 	<div id="result">
@@ -29,7 +33,6 @@
 
 
 	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>
