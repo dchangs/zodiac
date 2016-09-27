@@ -116,7 +116,8 @@ function getInfo() {
 	for (var i = 0; i < zodiac.length; i++) {
 		if (usersign.toLowerCase() == zodiac[i].sign) {
 			console.log(usersign)
-			document.getElementById('zodiac').textContent = name + ', your zodiac sign is ' + zodiac[i].sign.toUpperCase() + '!'
+			document.getElementById('zodiac').textContent =name + ' '
+			$('#zodiac').append(' your zodiac sign is ' + zodiac[i].sign.toUpperCase() + '!')
 			document.getElementById('element').textContent = zodiac[i].elmt
 			document.getElementById('image').innerHTML = zodiac[i].image
 			document.getElementById('forcast').textContent = zodiac[i].message
